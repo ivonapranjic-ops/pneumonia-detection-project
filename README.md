@@ -12,18 +12,30 @@ Ovaj projekt fokusira se na klasifikaciju rendgenskih snimaka prsnog koša radi 
 Modeli su evaluirani na testnom skupu od 624 slike. Poseban naglasak stavljen je na odziv i specifičnost zbog prirode medicinske dijagnostike (minimiziranje lažno negativnih rezultata). 
 
 --- Rezultati na TESTNOM skupu za: Scratch CNN ---
+
 Accuracy:    0.7468
+
 Precision:   0.7125
+
 Recall:      0.9974
+
 F1 Score:    0.8312
+
 Specificity: 0.3291
 
+
 --- Rezultati na TESTNOM skupu za: VGG16 ---
+
 Accuracy:    0.8670
+
 Precision:   0.8344
+
 Recall:      0.9821
+
 F1 Score:    0.9022
+
 Specificity: 0.6752
+
 
 Napomena: Iako baseline ima visok recall, niska specifičnost ukazuje na to da model često klasificira zdrave pacijente kao bolesne. 
 
