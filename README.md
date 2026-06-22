@@ -2,6 +2,11 @@
 This project was created as part of the Machine Learning course at the Computer Science graduate program.
 # Main goal:
 This project focuses on the classification of chest X-rays for the detection of pneumonia. The goal was to compare the performance of the adapted VGG16 architecture (transfer learning) with a simple baseline convolutional model, with special emphasis on the interpretability of the model using Grad-CAM visualization.
+<img width="945" height="283" alt="image" src="https://github.com/user-attachments/assets/b24415ad-fc8e-4d3f-9ba1-5d68126cce18" />
+
+<img width="945" height="332" alt="image" src="https://github.com/user-attachments/assets/d0126fc8-6d6a-4bc2-80d3-fc06ac910c4e" />
+
+
 # Key features:
 - ARCHITECTURE: Implementation and comparison of VGG16 (pre-trained) and custom baseline CNN.
 - INTERPRETABILITY: Using the Grad-CAM algorithm to visualize regions in the image that most influenced the model's decision (Explainable AI).
@@ -9,6 +14,11 @@ This project focuses on the classification of chest X-rays for the detection of 
 - GUI: Developed interactive application using the Streamlit library for easy model testing on new images.
 
 # Results and metrics:
+
+<img width="1256" height="714" alt="image" src="https://github.com/user-attachments/assets/6a2e906d-7ce0-426c-9ff0-5cadfe372945" />
+
+<img width="1725" height="661" alt="image" src="https://github.com/user-attachments/assets/44efc34f-0fd5-4f91-8349-29091cf25ba8" />
+
 The models were evaluated on a test set of 624 images. Special emphasis is placed on responsiveness and specificity due to the nature of medical diagnostics (minimizing false negative results).
 --- TEST set results for: Scratch CNN ---
 
@@ -46,6 +56,9 @@ Specificity: 0.6752
 
 # Visualization (Grad-CAM):
 The project includes the analysis of "black box" problems with neural networks. Through Grad-CAM, it was observed that the model sometimes makes decisions based on bony structures (ribs, clavicle) instead of lung tissue itself, which opens up space for further research and improvement.
+
+<img width="984" height="509" alt="image" src="https://github.com/user-attachments/assets/37dc2d0e-2880-430f-af63-1caaeba279c8" />
+
 
 AUTHOR: Ivona Pranjić
 2025./2026.
